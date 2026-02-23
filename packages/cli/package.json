@@ -1,6 +1,6 @@
 {
   "name": "@minions-venues/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-venues — Tent definitions, capacities, reservation rules, and opening schedules for Oktoberfest",
   "license": "MIT",
   "repository": {

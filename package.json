@@ -1,7 +1,7 @@
 {
     "name": "minions-venues-workspace",
     "private": true,
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Tent definitions, capacities, reservation rules, and opening schedules for Oktoberfest",
     "type": "module",
     "license": "MIT",
