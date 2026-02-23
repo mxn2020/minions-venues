@@ -1,6 +1,12 @@
 ---
 name: minions-venues
-description: Tent definitions, capacities, reservation rules, and opening schedules for Oktoberfest
+id: OC-0171
+version: 1.0.0
+description: "Tent definitions, capacities, reservation rules, and opening schedules for Oktoberfest"
+category: productivity
+subcategory: events
+tags: ["minion", "productivity", "events"]
+comments:
 ---
 
 # minions-venues — Agent Skills
