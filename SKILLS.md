@@ -162,65 +162,28 @@ pnpm add -g @minions-venues/cli
 ```
 
 Set `MINIONS_STORE` env var to control where data is stored (default: `.minions/`).
-Storage uses sharded directories: `.minions/<id[0..1]>/<id[2..3]>/<id>.json`
 
 ### Discover Types
 
 ```bash
-# List all MinionTypes with their fields
 venues types list
-
-# Show detailed schema for a specific type
 venues types show <type-slug>
 ```
 
-### Create
+### CRUD
 
 ```bash
-# Create with shortcut flags
-venues create <type> -t "Title" -s "status" -p "priority"
-
-# Create with full field data
-venues create <type> --data '{ ... }'
-```
-
-### Read
-
-```bash
-# List all Minions of a type
+venues create <type> -t "Title" -s "status"
 venues list <type>
-
-# Show a specific Minion
 venues show <id>
-
-# Search by text
-venues search "query"
-
-# Output as JSON (for piping)
-venues list --json
-venues show <id> --json
-```
-
-### Update
-
-```bash
-# Update fields
 venues update <id> --data '{ "status": "active" }'
-```
-
-### Delete
-
-```bash
-# Soft-delete (marks as deleted, preserves data)
 venues delete <id>
+venues search "query"
 ```
 
 ### Stats & Validation
 
 ```bash
-# Show storage stats
 venues stats
-
-# Validate a Minion JSON file against its schema
 venues validate ./my-minion.json
 ```
