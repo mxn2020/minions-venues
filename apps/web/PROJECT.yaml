@@ -1,0 +1,8 @@
+name: "@minions-venues/web"
+project_scope: child
+child_type: web-app
+parent_project: minions-venues-workspace
+description: "Standard compliance definition for @minions-venues/web"
+priority: high
+deploy_url: null
+tags: null

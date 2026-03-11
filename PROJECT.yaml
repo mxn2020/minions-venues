@@ -1,0 +1,15 @@
+name: minions-venues-workspace
+project_scope: main
+project_type: monorepo
+description: "Tent definitions, capacities, reservation rules, and opening schedules for Oktoberfest"
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-venues"
+deploy_url: null
+last_active: 2026-02-23
+tags: [minion, toolbox, ai-agent, automation, minions, venues]
+notes: null
+id: be824f10-b349-42f1-8cf7-ecd1ae2703cd

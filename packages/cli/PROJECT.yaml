@@ -1,0 +1,8 @@
+name: "@minions-venues/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-venues-workspace
+description: "CLI for minions-venues — Tent definitions, capacities, reservation rules, and opening schedules for Oktoberfest"
+priority: high
+deploy_url: null
+tags: null
